@@ -12,6 +12,7 @@ const WorkoutForm = () => {  // Component name should start with an uppercase le
   const [catagory, setCatagory] = useState("");
   const [error, setError] = useState(null);  // Optional: state for error handling
   const {user} = useAuthContext();
+  
 
   const handleSubmit = async (e) => {
     e.preventDefault();

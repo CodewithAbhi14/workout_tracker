@@ -7,7 +7,7 @@ export default defineConfig({
   server: {
     proxy: {
       '/api': {
-        target: 'http://localhost:5000',
+        target: 'https://workout-tracker-backend-eo0w.onrender.com',
         changeOrigin: true,
       },
     },

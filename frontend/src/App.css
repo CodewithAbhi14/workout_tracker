@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    background-color: rgb(241, 241, 241);
+}
+
+.cont {
+    height: 60vh;
+    overflow-y: scroll;
+    scrollbar-width: none; /* For Firefox */
+  }
+  
+  .cont::-webkit-scrollbar {
+    display: none; /* For Chrome, Safari, and Opera */
+  }
+
+
